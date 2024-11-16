@@ -6,11 +6,6 @@
 fly deploy
 ```
 
-- DB作成
-```
-flyctl postgres create 
-```
-
 - DB接続
 ```
 fly postgres connect -a [DBインスタンス名]
